@@ -1,0 +1,31 @@
+# =====================================================
+# Dataset root folder inside Google Drive
+# =====================================================
+
+path: C:/Users/idika/Documents/TRYONE/IVF_Project-latest/IVF_Project/datasets/yolo_dataset
+
+
+# =====================================================
+# Train / Validation / Test folders
+# =====================================================
+
+train: images/train
+val: images/val
+test: images/test
+
+
+# =====================================================
+# Number of classes
+# =====================================================
+
+nc: 3
+
+
+# =====================================================
+# Class names
+# =====================================================
+
+names:
+  0: cytoplasm
+  1: polar_body
+  2: zona_pellucida
